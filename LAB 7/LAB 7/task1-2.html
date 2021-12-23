@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>TASKS 1 AND 2 Abubakirova Manshuk</title>
+  </head>
+  <body>
+<a href="task3.html">Task3</a>
+  <h3>Problem 1</h3>
+  <p>1.	Open The Chrome Internet browser, press F12 to open the Chrome DevTools, and open the console window in Chrome DevTools by clicking on the “Console” tab</p>
+
+
+  <h3>Problem 2</h3>
+  <p>2.	Practice writing strings within the console using console.log()
+  a)Example: console.log(“Hello World”);<p>
+	<script>
+	console.log("2. Hello there, it is Manshuk using console.log.")
+	</script>
+	<code>
+	console.log("2. Hello there, it is Manshuk using console.log.")
+    </code>
+
+
+
+  <h3>Problem 3</h3>
+  <p>3.	Use .length to get a property of the string
+  a)	Example: console.log("Hello World".length);</p>
+  <script>
+  	console.log("3.")
+  	console.log("Hello, I am Manshuk and here I used the console.log(123.length)".length);
+  </script>
+  <code>
+  	console.log("Hello, I am Manshuk and here I used the console.log(123.length)".length);
+  </code>
+
+
+
+  <h3>Problem 4</h3>
+  <p>4.	Write some simple mathematical operations within console.log()
+   a)	What is the difference between =, ==, ===?</p>
+   <script>
+   	console.log("4.1")
+   	console.log(11+6); 
+   </script>
+   <script>
+   	console.log("4.2")
+   	console.log(100-30);
+   	</script>
+   	<script>
+   	console.log("4.3")
+   	console.log(3 * 7); 
+   	</script>
+   	<script>  
+   	console.log("4.4")
+	console.log(55 / 5); 
+	</script>
+	<script> 
+	console.log("4.5")
+	console.log(9 > 8);
+	</script>
+	<script>
+	console.log("4.6")
+	console.log("3"=== 3);
+	</script>
+	<script>
+	console.log("4.7")
+		var x=3;
+	console.log(x === 3);
+	</script>
+	<script>
+	console.log("4.8")
+	console.log("81"==81);
+   </script>
+   
+   <code>
+		1.console.log(11+6); - addition
+		<br>
+		2.console.log(100-30); - substraction
+		<br>
+		3.console.log(3 * 7);  - multiplication
+		<br>
+		4.console.log(55 / 5); - division
+		<br>
+		5.console.log(9 > 8); - greater than
+		<br>
+		6.console.log(“3” === 3); - "equal value and equal type" 
+		<br>
+		7.var x=3;          - assigning the value
+		<br>
+		console.log(x === 3);
+		<br>
+		8.console.log(“81” == 81); - "equal to" - is a comparison operator, which transforms the operands having the same type before comparison
+		<br>
+   </code>
+
+
+  <h3>Problem 5</h3>
+  <p>5.	Practice writing some code that uses various mathematical methods like .round, .floor, .random, .min, .max:</p>
+   <script>
+   	console.log("5.1")
+   	console.log(Math.round(1.7));
+   </script>
+   <script>
+   	console.log("5.2")
+   	console.log(Math.round(5.7)/2);
+   </script>
+   <script>
+   	console.log("5.3")
+   	console.log(Math.sqrt(16));
+   </script>
+   <script>
+   	console.log("5.4")
+	console.log(Math.random()); 
+   </script>
+   <script>
+   	console.log("5.5")
+	console.log(Math.floor(4.9));
+   </script>
+   <script>
+   	console.log("5.6")
+	console.log(Math.min(7, 19));
+   </script>
+   <script>
+   	console.log("5.7")
+	console.log(Math.max(7, 19));
+   </script>
+   <script>
+   	console.log("5.8")
+	console.log(Math.sign(-3));
+   </script>
+	<code>
+	1.console.log(Math.round(1.7));
+	<br>
+	2.console.log(Math.round(5.7)/2);
+	<br>
+	3.console.log(Math.sqrt(16));
+	<br>
+	4.console.log(Math.random()); 
+	<br>
+	5.console.log(Math.floor(4.9));
+	<br>
+	6.console.log(Math.min(7, 19));
+	<br>
+	7.console.log(Math.max(7, 19));
+	<br>
+	8.console.log(Math.sign(-3));
+	</code>
+
+
+  <h3>Problem 6</h3>
+  <p>
+  	6.	Write a JavaScript command that will display:
+  	<br>
+	a)	A random number between 5 and 20
+	<p id="6a"></p>
+	<button onclick="document.getElementById('6a').innerHTML=random6a()">Random</button>
+	<script>
+		function random6a()
+		{
+			return Math.round(Math.random()*15)+5;
+		}
+	</script>
+	<br>
+	<code>
+		or use console.log(Math.random()*21)+5;
+	</code>
+	<br>
+
+
+
+	<p>
+		b)	A random number between 15 and 100
+	<p id="6b"></p>
+	<button onclick="document.getElementById('6b').innerHTML=random6b()">Random</button>
+	<script>
+		function random6b()
+		{
+			return Math.round(Math.random()*85)+15;
+		}
+	</script>
+	<br>
+	<code>
+		console.log(Math.random()*101)+15;
+	</code>
+	<br>
+	c)	Multiply the number of characters in “Donald Trump” by the rounded sum 6.6 + 7
+	<p id="6c"></p>
+	<button onclick="document.getElementById('6c').innerHTML=multiple()">Multiple</button>
+	<script>
+		function multiple()
+		{
+			let string="Donald Trump";
+			return string.length *Math.round((6.6)+7);
+		}
+	</script>
+	<br>
+	<br>
+	<code>
+	or console.log("Donald Trump".length/Math.round(6.6+7));
+	</code>
+	</p>
+
+
+  <h3>Problem 7</h3>
+  <p>7.	Divide the length of “1 411 890” by the floor of 3.21</p>
+
+  <button onclick ="document.getElementById('7').innerHTML=divide()">Division</button>
+  <p id="7"></p>
+
+  <script>
+  	function divide()
+  	{
+  		let string="1 411 890";
+  		return string.length / Math.floor(3.21);
+  	}
+  </script>
+  
+
+
+  </body>
+  </html>

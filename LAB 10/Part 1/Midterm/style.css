@@ -1,0 +1,337 @@
+body{
+	background-color:  #E5E5E5
+}
+
+.introduction__block1{
+	width:50%;
+}
+
+.introduction__name{
+	position: absolute;
+	width: 200px;
+	height: 32px;
+	left: 90px;
+	top: 12px;
+	font-family: Comfortaa;
+	font-style: normal;
+	font-size: 18px;
+}
+
+.introduction__job{
+    position: relative;
+	left:90px;
+	top: 30px;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #FDC435;
+	margin-top: 20px;
+}
+
+.introduction__hello{
+	position: relative;
+	left:90px;
+	top: 30px;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+}
+
+.introduction__info{
+	position: relative;
+	left:90px;
+	margin-top:20px;
+	font-family: Nunito;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 150%;
+	color: #828282;
+}
+
+#button1{
+	
+	padding: 8px 24px;
+	position: relative;
+	left: 100px;
+	top: 20px;
+	width: 115px;
+	height: 43px;
+	background: #FDC435;
+	border-radius: 8px;
+	}
+
+#button2{
+	
+	padding: 8px 24px;
+	margin-left: 20px;
+	position: relative;
+	width: 117px;
+	height: 43px;
+	left: 110px;
+	top: 20px;
+	border: 2px solid #25282B;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+
+.introduction__block2{
+	position: absolute;
+	top:30px;
+	right:60px;
+}
+#photo{
+	width: 300px;
+	background: 100%;
+	border-radius: 50%;
+	border:30px solid #FDC435;
+}
+
+
+
+.main__title{
+	position: relative;
+	width: 181px;
+	height: 72px;
+	left: 43%;
+	top: 20%;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 72px;
+}
+
+.main__line{
+	position: relative;
+	left:37px;
+	width:100px;
+	height:5px;
+	background-color: #FDC435;
+}
+.main__cards{
+	height:400px;
+}
+#whitecard{
+    padding: 20px;
+	width:300px;
+	height:300px;
+	position: relative;
+	left:400px;
+	top:100px;
+	background-color: white;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+#short{
+	font-family: Nunito;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 150%;
+	color: #828282;
+}
+
+#buttonview1{
+	font-family: Roboto;
+	font-style: normal;
+	border: 2px solid #25282B;
+	box-sizing: border-box;
+	border-radius: 40px;
+}
+
+.photo1{
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	width:300px;
+	height:300px;
+	position: absolute;	
+	left:701px;
+	top:542px;
+}
+
+#whitecard2{
+    padding: 20px;
+	width:300px;
+    height:300px;
+	position: absolute;
+	left:701px;
+	top: 900px;
+	background-color: white;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.photo2{
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	width:300px;
+	height:300px;
+	position: absolute;	
+	left:400px;
+	top:900px;
+}
+
+#whitecard3{
+    padding: 20px;
+	width:300px;
+    height:300px;
+	position: absolute;
+	left:400px;
+	top:1265px;
+	background-color: white;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.photo3{
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	width:300px;
+	height:300px;
+	position: absolute;	
+	left:701px;
+	top:1265px;
+}
+
+
+.main__social{
+	height:100px;
+}
+#inst{
+	position: relative;
+	left:580px;
+	top:800px;
+	color:black;
+	width:100px;
+}
+#vk{
+	position: relative;
+	left:581px;
+	top:800px;
+	color:black;
+	width:100px;
+}
+#skype{
+	position: relative;
+	left:582px;
+	top:800px;
+	color:black;
+	width:100px;
+}
+#last{
+	position: relative;
+	width: 200px;
+	height: 22px;
+	left: 630px;
+	top: 820px;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	color: #828282;
+}
+
+
+.about{
+	height:400px;
+}
+.about__title{
+	position: relative;
+	left:90px;
+	top: 830px;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+}
+.about__info{
+	width:50%;
+	position: relative;
+	left:90px;
+	top: 850px;
+	font-family: Nunito;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 150%;
+	color: #828282;
+}
+#button3{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 8px 24px;
+	position: relative;
+	width: 115px;
+	height: 43px;
+	left: 80px;
+	top: 880px;
+	background: #FDC435;
+	border-radius: 8px;
+
+}
+
+#aboutmephoto{
+	position: relative;
+	left:60%;
+	top:600px;
+	border-radius: 50%;
+	width:400px;
+}
+
+#inst1{
+	position: relative;
+	left:580px;
+	top:600px;
+	color:black;
+	width:100px;
+}
+#vk1{
+	position: relative;
+	left:581px;
+	top:600px;
+	color:black;
+	width:100px;
+}
+#skype1{
+	position: relative;
+	left:582px;
+	top:600px;
+	color:black;
+	width:100px;
+}
+
+.forms__title{
+	position: relative;
+	width: 181px;
+	height: 72px;
+	left: 45%;
+	top:900px;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 72px;
+	text-align: center;
+	float: center;
+}
+.forms__name{
+	position: relative;
+	top:950px;
+	left:40%;
+	width:300px;
+}
+.forms__email{
+	position: relative;
+	top:980px;
+	left:40%;
+	width:300px;	
+}
+.forms__message{
+	position: relative;
+	top:1010px;
+	left:40%;
+	width:300px;	
+}

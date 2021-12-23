@@ -1,0 +1,148 @@
+/*HEADER*/
+.header {
+}
+.header__title {
+}
+.header__from {
+	font-family: sans-serif;
+    font-color: #2E2E2E;
+}
+.header_coordinates {
+    font-family: sans-serif;
+    font-color: #2E2E2E;
+    float: right;
+}
+.header__article {
+    font-family: sans-serif;
+    font-style: italic;
+    padding-left: 1.6em;
+    margin-bottom: 0.5em;
+}
+
+/*ALMATY DESCRIPTION*/
+.description{
+    font-family: sans-serif;
+    font-color: #2E2E2E;
+}
+
+/*TABLE OF CONTENTS*/
+.contentlist{
+	height: 950;
+    width: 420px;
+    border-radius: 1px;
+    display: block;
+    border: 1px solid;
+    margin-right: 400px;       
+    border-color: #A9C2DB;
+    font-family: sans-serif;
+    font-color: #2E2E2E;
+}
+.test li {
+        list-style-type: none;
+}
+
+/*CONTENT*/
+.main-content__header{
+    font-family: 'Linux Libertine','Georgia', 'Times', serif;
+    font-color: #2E2E2E;
+    font-size: 20px;
+}
+.main-content__edit{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-color: #2E2E2E;
+
+}
+.main-content__paragraph{
+    font-family: sans-serif;
+    font-color: #2E2E2E;
+}
+.main-content__book-info{
+    margin-left: 5%;
+    border-left: 10px solid #f28500;
+    border-top: 2px solid #A9C2DB;
+    border-right: 2px solid #A9C2DB;
+    border-bottom: 2px solid #A9C2DB;
+    padding: 10px;
+}
+.book-image{
+   float: left;
+   width: 50px;
+   height: 39px; 
+}
+
+/*CONTENT2*/
+.main-content2{
+    font-family: sans-serif;
+    font-color: #2E2E2E;
+}
+.main-content2__header{
+    font-family: 'Linux Libertine','Georgia', 'Times', serif;
+    font-size: 15px;
+}
+.main-content2__edit{
+    font-size: 13px;
+}
+.main-content2__paragraph{
+}
+.img1{
+    float: right;
+    width: 220px;
+    border: 1px solid #A9C2DB;
+    background-color: #EFFBFB;
+    padding: 7px;
+    margin: 5px 5px 5px 5px;
+}
+.img2{
+    float: left;
+    width: 220px;
+    background-color: #EFFBFB;
+    border: 1px solid #A9C2DB;
+    padding: 7px;
+    margin: 5px 5px 5px 5px;
+}
+.main-content2__book-info{
+    margin-left: 10%;
+    border-left: 10px solid #f28500;
+    border-top: 2px solid #A9C2DB;
+    border-right: 2px solid #A9C2DB;
+    border-bottom: 2px solid #A9C2DB;
+    padding: 10px;
+    overflow: hidden;
+
+}
+/*CONTENT 3*/
+.main-content3{
+    font-family: sans-serif;
+    font-color: #2E2E2E;
+}
+.main-content3__header{
+    font-family: 'Linux Libertine','Georgia', 'Times', serif;
+    font-size: 13px;
+}
+.main-content3__edit{
+    font-size: 13px;
+}
+.main-content3__paragraph{
+}
+.main-content3__book-info{
+    margin-left: 10%;
+    border-left: 10px solid #f28500;
+    border-top: 2px solid #A9C2DB;
+    border-right: 2px solid #A9C2DB;
+    border-bottom: 2px solid #A9C2DB;
+    padding: 10px;
+    overflow: hidden;
+
+}
+/*CLIMATE TABLE*/
+.climate {
+        width: 100%;
+        text-align: center;
+        background-color: #eaecf0;
+        border: 1px solid #a2a9b1;
+        padding: 0.2em 0.4em;
+        line-height: 1.2em;
+        margin: auto;
+}
+

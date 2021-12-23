@@ -1,0 +1,300 @@
+body{
+	background-color: #E5E5E5;
+}
+#manshuk {
+position: absolute;
+width: 200px;
+height: 32px;
+left: 90px;
+top: 12px;
+
+font-family: Comfortaa;
+font-style: normal;
+font-size: 18px;
+}
+#ui{
+position: relative;
+left:90px;
+top: 30px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+text-transform: uppercase;
+color: #FDC435;
+}
+#hello{
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+
+}
+#short{
+font-family: Nunito;
+font-style: normal;
+font-size: 24px;
+line-height: 150%;
+color: #828282;
+}
+#projectsb{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 24px;
+
+position: static;
+width: 115px;
+height: 43px;
+left: 0px;
+top: 0px;
+
+
+background: #FDC435;
+border-radius: 8px;
+}
+
+#linkedIn{
+	display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 24px;
+margin-left: 20px;
+position: static;
+width: 117px;
+height: 43px;
+left: 127px;
+top: 0px;
+border: 2px solid #25282B;
+box-sizing: border-box;
+border-radius: 8px;
+}
+#photo{
+position: absolute;
+right: 0px;
+width: 300px;
+background: 100%;
+background-repeat:no-repeat;
+background: url(attachment.jpeg);
+}
+#projects{
+	position: absolute;
+width: 181px;
+height: 72px;
+left: 45%;
+
+
+/* title / h2 */
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 72px;
+text-align: center;
+float: center;
+
+}
+#whitecard{
+    padding: 20px;
+	width:300px;
+height:300px;
+	position: relative;
+	left:400px;
+	top:100px;
+	background-color: white;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+#view1{
+font-family: Roboto;
+font-style: normal;
+border: 2px solid #25282B;
+box-sizing: border-box;
+border-radius: 40px;
+}
+.photo1{
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+width:300px;
+height:300px;
+position: absolute;	
+left:760px;
+top:580px;
+}
+#whitecard2{
+    padding: 20px;
+	width:300px;
+    height:300px;
+	position: relative;
+	left:690px;
+	top:97px;
+	background-color: white;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.photo2{
+border-top-left-radius: 30px;
+border-bottom-left-radius: 30px;
+width:300px;
+height:300px;
+position: absolute;	
+left:465px;
+top:940px;
+}
+#whitecard3{
+    padding: 20px;
+	width:300px;
+height:300px;
+	position: relative;
+	left:400px;
+	top:150px;
+	background-color: white;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.photo3{
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+width:300px;
+height:300px;
+position: absolute;	
+left:760px;
+top:1295px;
+}
+
+#inst{
+	position: relative;
+	left:580px;
+	top:200px;
+	color:black;
+	width:100px;
+}
+#vk{
+	position: relative;
+	left:581px;
+	top:200px;
+	color:black;
+	width:100px;
+}
+#skype{
+	position: relative;
+	left:582px;
+	top:200px;
+	color:black;
+	width:100px;
+}
+.fa{
+	width:100px;
+}
+#last{
+position: relative;
+width: 200px;
+height: 22px;
+left: 680px;
+top: 240px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* font / medium-emphasis */
+
+color: #828282;
+}
+#about{
+	font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+}
+#projectb1{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 24px;
+
+position: static;
+width: 115px;
+height: 43px;
+left: 0px;
+top: 0px;
+background: #FDC435;
+border-radius: 8px;
+}
+#aboutmephoto{
+	border-radius: 100%;
+	width:400px;
+}
+#myphoto{
+	width:350px;
+	position: absolute;
+	right:0;
+	top:0;
+	border:40px solid #FDC435 ;
+}
+#inst1{
+	position: relative;
+	left:580px;
+	top:50px;
+	color:black;
+	width:100px;
+}
+#vk1{
+	position: relative;
+	left:581px;
+	top:50px;
+	color:black;
+	width:100px;
+}
+#skype1{
+	position: relative;
+	left:582px;
+	top:50px;
+	color:black;
+	width:100px;
+}
+#projects1{
+	position: relative;
+width: 181px;
+height: 72px;
+left: 45%;
+top:200px;
+
+
+/* title / h2 */
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 72px;
+text-align: center;
+float: center;
+
+}
+#forms{
+position: relative;
+left: 25%;
+top:200px;
+}
+#send{
+padding: 8px 24px;
+margin-top:30px;
+position: relative;
+width: 89px;
+height: 43px;
+left: 510px;
+
+
+/* brand / yellow */
+
+background: #FDC435;
+border-radius: 8px;
+}

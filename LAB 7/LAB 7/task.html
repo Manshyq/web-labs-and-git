@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Abubakirova Manshuk</title>
+  </head>
+  <body>
+
+<form >
+    <input id="Inputted" type="text" placeholder="Enter Text" />
+    <br>
+    <button type="submit" value="send to console">
+    </button>
+</form>
+
+<script>
+   var nameInput = document.getElementById('Inputted');
+
+document.querySelector('form').addEventListener('submit', function (send) {
+
+    //prevent the normal submission of the form
+    send.preventDefault();
+
+    console.log(nameInput.value);    
+});
+
+</script>
+
+
+  </body>
+  </html>

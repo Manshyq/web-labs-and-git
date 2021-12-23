@@ -1,0 +1,11 @@
+body{
+	background-size:100%;
+	z-index:1;
+	background-repeat: no-repeat; 
+
+	background-image:linear-gradient(180deg, #47A8BD 0,#F5E663);
+}
+
+.gray{
+	color:gray;
+}

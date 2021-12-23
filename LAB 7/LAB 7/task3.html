@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>TASKS 3 Abubakirova Manshuk</title>
+    
+  </head>
+  <body>
+  <a href="task1-2.html">Task 1-2</a>
+  <h3>Problem 1</h3>
+  <script>
+  	var answer = prompt("Are we there yet?");
+  	while (answer !=="yes" && answer !=="yeah")
+  	{
+  		var answer = prompt("Are we there yet?");
+  	}
+  	alert("Yay, we finally made it!");
+  </script>
+  <code>
+  	var answer = prompt("Are we there yet?");<br>
+  	while (answer !=="yes" && answer !=="yeah")<br>
+  	{<br>
+  		var answer = prompt("Are we there yet?");<br>
+  	}<br>
+  	alert("Yay, we finally made it!");
+  </code>
+
+  <h3>Problem 2</h3>
+  <h4>1.Print all numbers between -10 and 1</h4>
+
+  <input type="button" onclick="BetweenMinus10and1()" value="Print numbers between -10 and 1">
+	<div id="result10and1"></div> 
+
+      <script>
+  	function BetweenMinus10and1() {
+	var Numbers =" ";
+	for(i = -10; i <= 19; i++) 
+	    {
+		Numbers += i + " ";
+	    }
+		document.getElementById("result10and1").innerHTML = Numbers;
+		}
+      </script>
+		
+  
+  <h4>2.Print all even numbers between 10 and 40</h4>
+  <input type="button" onclick="Even10and40()" value="Print all even numbers between 10 and 40">
+  <div id="resulteven10and40"></div>
+  <script>
+  	function Even10and40() {
+			var even =" ";
+			for(i = 10; i <= 40; i++) {
+				if (i % 2 == 0)
+				even += i + " ";
+			}
+			document.getElementById("resulteven10and40").innerHTML = even;
+		}
+  </script>
+
+  <h4>3.Print all odd numbers between 300 and 333</h4>
+  <input type="button" onclick="Odd10and40()" value="Print all odd numbers between 300 and 333" />
+	<div id="resultodd10and40"></div>
+  <script>
+  	function Odd10and40() {
+			var odd =" ";
+			for(i = 300; i <= 333; i++) {
+				if (i % 2 == 1) {
+				odd += i + " "; }
+			}
+			document.getElementById("resultodd10and40").innerHTML = odd;
+		}
+  </script>
+
+  <h4>4.Print all numbers divisible by 5 AND 3 between 5 and 50</h4>
+  <input type="button" onclick="Divisibleby5and3()" value="Print all numbers divisible by 5 AND 3 between 5 and 50 ">
+  <div id="result5and3"></div>
+
+  <script>
+  	function Divisibleby5and3() {
+			var divisible =" ";
+			for(i = 5; i <= 50; i++) {
+				if (i % 5 == 0 && i % 3 == 0) {
+				divisible += i + " "; }
+			}
+			document.getElementById("result5and3").innerHTML = divisible;
+		}
+  </script>
+
+  <h3>Problem 3</h3>
+  <h4>1.Print all numbers between -10 and 19</h4>
+  <input type="button" onclick="while10and19()" value="Print all numbers between -10 and 19" />
+	<div id="resultwhile10and19"></div>
+  <script>
+  	function while10and19(){
+			var int2 = "";
+			var i = -10;
+			while (i < 20) {
+			  int2 += i + " ";
+			    i++;
+			}
+			document.getElementById("resultwhile10and19").innerHTML = int2;
+		}
+  </script>
+
+  <h4>2.Print all even numbers between 10 and 40</h4>
+  <input type="button" onclick="whileeven10and40()" value="Print Even 2" />
+	<div id="resultwhileven10and40"></div>
+  <script>
+  	function whileeven10and40(){
+			var evenint2 = "";
+			var i = 10;
+			while (i < 41) {
+				if (i % 2 == 0) {
+					evenint2 += i + " "; }
+					i++; 
+				}
+				document.getElementById("resultwhileven10and40").innerHTML = evenint2;
+			}
+  </script>
+
+  <h4>3.Print all odd numbers between 300 and 333</h4>
+  <input type="button" onclick="Odd300and333()" value="Print all odd numbers between 300 and 333" />
+	<div id="resultwhileodd300and333"></div>
+  <script>
+  	function Odd300and333(){
+			var oddint2 = "";
+			var i = 300;
+			while (i < 334) {
+				if (i % 2 == 1) {
+					oddint2 += i + " "; }
+					i++;
+				}
+				document.getElementById("resultwhileodd300and333").innerHTML = oddint2;
+			}
+  </script>
+
+  <h4>4.Print all numbers divisible by 5 AND 3 between 5 and 50</h4>
+  <input type="button" onclick="DivisibleWhileby5and3()" value="Print all numbers divisible by 5 AND 3 between 5 and 50">
+	<div id="resultwhile5and3"></div>
+  <script>
+  	function DivisibleWhileby5and3(){
+			var divisibleint2 = "";
+			var i = 10;
+			while (i < 51) {
+				if (i % 5 == 0 && i % 3 == 0) {
+					divisibleint2 += i + " "; }
+					i++;
+				}
+				document.getElementById("resultwhile5and3").innerHTML = divisibleint2;
+			}
+  </script>
+</body>
+</html>
